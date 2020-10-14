@@ -1,5 +1,5 @@
 """Application entry point."""
-from roman_numeral_convertor import create_app
+from application import create_app
 
 app = create_app()
 

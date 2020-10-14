@@ -1,5 +1,5 @@
 import pytest
-from roman_numeral_convertor.convertor import convert
+from application.convertor import convert
 
 
 class TestLogicFunctions:
