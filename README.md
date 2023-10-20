@@ -20,8 +20,8 @@ $ flask run
 ```shell
 $ git clone https://github.com/andysprague44/roman-numeral-convertor.git 
 $ cd roman-numeral-convertor
-$ conda env create -f environment.yml python=3.7
-$ conda activate cenv
+$ conda env create --force -f environment.yml
+$ conda activate roman
 $ flask run
 ```
 

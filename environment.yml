@@ -1,11 +1,13 @@
-name: cenv
+name: roman
 
 channels:
   - conda-forge
   - plotly
 
 dependencies:
-  - python=3.7
-  - pip=20.1
+  - python=3.11.5
+  - pip=23.2.1
+  - pytest
+
   - pip:
-    - -rrequirements.txt
+    - -r requirements.txt

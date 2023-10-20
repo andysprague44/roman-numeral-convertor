@@ -1,7 +1,7 @@
 """Flask routes."""
 from flask import render_template
 from flask import current_app as app
-from roman_numeral_convertor.api import fetch_numerals
+from .api import fetch_numerals
 
 
 @app.route('/', methods=['GET'])
